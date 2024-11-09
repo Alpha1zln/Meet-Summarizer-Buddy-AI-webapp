@@ -23,7 +23,7 @@ async function summarizeText(text) {
     headers: {
       'Content-Type': 'application/json',
       'Authorization': 'Bearer ' + process.env['ACCESS_TOKEN']
-      // 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
+     
     },
     data: data
   };
